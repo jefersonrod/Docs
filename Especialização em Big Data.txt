@@ -1,0 +1,16 @@
+Especialização Big Data:
+
+1 - Introduction to Big Data
+https://www.coursera.org/learn/intro-to-big-data
+
+2 - Hadoop
+https://www.coursera.org/learn/hadoop
+
+3 - Introduction to Big Data Analytics
+https://www.coursera.org/learn/bigdata-analytics
+
+4 - Machine Learning With Big Data
+https://www.coursera.org/learn/machinelearningwithbigdata
+
+5 - Introduction to Graph Analytics
+https://www.coursera.org/learn/graph-analytics
