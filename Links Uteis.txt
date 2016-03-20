@@ -1,0 +1,24 @@
+Utils links:
+
+https://www.caelum.com.br/apostila-java-orientacao-objetos/
+
+www.guj.com.br/tag/java
+
+www.devmedia.com.br
+
+http://examples.javacodegeeks.com
+
+www.tutorialspoint.com/codingground.htm
+
+www.tutorialspoint.com/compile_java8_online.php
+
+http://docs.oracle.com/javase/tutorial/essential/environment/paths.html
+
+http://javarevisited.blogspot.com.br/2015/04/error-could-not-find-or-load-main-class-helloworld-java.html
+
+http://www.drdobbs.com/programmers-toolchest/184404280
+
+http://stackoverflow.com/
+
+Eclipse Window Builder
+http://download.eclipse.org/windowbuilder/WB/release/R201506241200-1/4.4/
