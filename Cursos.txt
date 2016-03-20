@@ -1,0 +1,93 @@
+Livros de TI gratuitos no Github
+https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md
+
+Cursos gratuitos com certificado 
+BR
+Fundação Bradesco - http://www.ev.org.br/Paginas/Home.aspx
+Brasil mais TI - http://www.brasilmaisti.com.br/
+Microsoft Virtual Academy - https://mva.microsoft.com/
+Udemy - https://www.udemy.com/courses/
+Veduca - http://www.veduca.com.br/
+Aula EAD - http://aulaead.com/
+Intel Dialogo TI - http://dialogoti.intel.com/pt-br
+Dell Training Center - http://www.delltrainingcentre.com/Main/Home/Home.aspx?clearsession=true
+Tim Tec - http://timtec.com.br/pt/lista-de-cursos/
+Soft Blue - http://www.softblue.com.br/site/curso/id/6/CURSO+LOGICA+DE+PROGRAMACAO+BASICO+ON+LINE+LO06
+Soft Blue - http://www.softblue.com.br/site/curso/id/3/CURSO+SQL+COMPLETO+BASICO+AO+AVANCADO+ON+LINE+BD03
+Curso em video - http://www.cursoemvideo.com/
+Iped - https://www.iped.com.br/programacao-e-desenvolvimento/curso/php-mysql/afiliado/582235
+Iped - https://www.iped.com.br/programacao-e-desenvolvimento/curso/android-avancado/afiliado/582235
+Iped - https://www.iped.com.br/programacao-e-desenvolvimento/curso/html5/afiliado/582235
+Iped - https://www.iped.com.br/programacao-e-desenvolvimento/curso/sql-server/afiliado/582235
+Learn Café - http://www.learncafe.com/cursos-gratis/informatica-e-internet
+Loiane Training - http://loiane.training/
+DLTec - http://site.dltec.com.br/curso/gratis/html5-css3
+
+US
+Corsera - https://www.coursera.org/
+
+Cursos gratuitos sem certificado ou certificado pago
+BR
+Net coders - http://www.meetup.com/pt-BR/NetCoders/
+Unicamp - http://www.ic.unicamp.br/~mc102/home.html
+Codecademy - https://www.codecademy.com/pt
+Aprenda Oracle PL/SQL - http://aprendaplsql.com/
+Site Campus - http://sitecampus.com.br/categoria-produto/cursos-site-campus/
+C Progressivo - http://www.cprogressivo.net/p/curso-de-c-online-para-iniciantes.html
+Java Progressivo - http://www.javaprogressivo.net/
+Prime Cursos - https://www.primecursos.com.br/
+Informaticon - http://www.informaticon.com.br/j/
+Cisco Networking Academy - http://www.cisco.com/c/en/us/training-events/resources/networking-academy.html
+Up Inside - https://www.upinside.com.br/categoria/cursos-gratuitos
+RL Systems - http://www.rlsystem.com.br/curso-android-gratis/
+RL Systems - http://www.rlsystem.com.br/curso-java-gratis/
+Guanabara Info - http://www.guanabara.info/2007/09/curso-de-php-aula-01/#
+Go Learny - https://www.golearny.com/pt/
+K19 - http://online.k19.com.br/
+Instituto Embratel - http://www.institutoembratel.org.br/destaques/cursos.php
+My English Online - http://www.myenglishonline.com.br/
+RB Tech - http://rbtech.info/cursos/
+Lab de GAragem - http://labdegaragem.com/main/authorization/signUp?
+USP - http://www.ime.usp.br/~pf/algoritmos/
+Estude CCNA - http://estudeccna.com.br/
+T2Ti - http://t2ti.com/curso/video/java/basico/java_starter.php
+Kretcheu Video Blog - http://kretcheu.com.br/
+MSDN - https://msdn.microsoft.com/en-US/#fbid=-ggw5QKx2ld
+Buzzero - https://www.buzzero.com/cursos-gratis
+FGV - http://www5.fgv.br/fgvonline/Cursos/Gratuitos/
+Sebrae - https://ead.sebrae.com.br/
+Duolingo - https://www.duolingo.com/
+EFagundes - http://efagundes.com/cursosonline/namaste-course/governanca-de-ti/
+SEO Master - http://www.seomaster.com.br/curso-tutorial-seo-gratis.html
+FIAP X - https://www.fiap.com.br/fiapx/cursos
+
+
+US
+MIT Opencourseware - http://ocw.mit.edu/courses/find-by-topic/#cat=engineering&subcat=computerscience
+Khan Academy - https://www.khanacademy.org/computing/computer-programming
+Edx - https://www.edx.org/
+W3Schools - http://www.w3schools.com/
+Android Developer - http://developer.android.com/index.html
+Google Developers - https://developers.google.com/
+Plural Sight - https://www.pluralsight.com/
+Udacity - https://www.udacity.com/
+Open Yale - http://oyc.yale.edu/
+The Open University - http://www.open.ac.uk/
+Learn Computer Science - https://csedweek.org/learn
+Code School - https://www.codeschool.com/
+Tree House - https://teamtreehouse.com/
+Marcus Biel - http://www.marcus-biel.com/
+Try Ruby - http://tryruby.org/levels/1/challenges/0
+Tuts Plus - http://tutsplus.com/courses
+Ted Ed - http://ed.ted.com/
+Memrise - http://www.memrise.com/courses/english/
+Canvas - https://www.canvas.net/
+Skillshare - https://www.skillshare.com/?studentRef=3817394
+P2PU - https://www.p2pu.org/en/
+Couse Hero - https://www.coursehero.com/
+
+
+Apanhado de Cursos 
+CSBI - http://www.cbsi.net.br/2016/02/26-cursos-gratuitos-na-area-de-ti-e-com-certificado.html
+Canal do Ensino - http://canaldoensino.com.br/blog/53-cursos-gratuitos-a-distancia-para-a-area-de-ti
+PTI - http://www.profissionaisti.com.br/2015/08/54-cursos-online-e-gratuitos-em-ti-qualifique-se/
