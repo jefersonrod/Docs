@@ -1,0 +1,101 @@
+= backup archive ===
+@echo off
+rem Developed by Jeferson R.
+rem Date 04/12/2014
+rem Feel free to modify, use and share
+
+title Backup Docs User
+echo Aguarde...
+echo Efetuando Backup dos arquivos
+echo Iniciado as
+time /t
+echo ------------------------------------------------------
+echo = Ao termino do backup sera emitido um alerta sonoro =
+echo = de 3 bips e uma mensagem de terminado.
+echo ------------------------------------------------------
+rem seta parametros de variaveis
+set passwd=%USERDOMAIN%
+set path_7z="c:\util\Authorised Portables\7-ZipPortable\App\7-Zip\7z.exe"
+set archive_folder="c:\backup"
+set archive_bkp="c:\backup\Archive_Jef_%passwd%"
+set files2bkp=@"C:\util\scripts\listfiles2bkp.txt"
+set log_file=c:\backup\Archive_User_%passwd%_log.txt
+set storage=H:\Personal\User\bkp
+
+set bkpdesktop="C:\Users\User\Desktop\*"
+set bkpfavorites="C:\Users\User\Favorites\*"
+set bkpdocuments="C:\Users\User\Documents\*"
+set bkpscripts="C:\util\scripts\*"
+set bkpsticknotes="C:\Users\User\AppData\Roaming\Microsoft\Sticky Notes\*"
+
+rem checa se o Word esta aberto
+tasklist /FI "IMAGENAME eq winword.exe" 2>NUL | find /I /N "winword.exe">NUL
+if "%ERRORLEVEL%"=="0" call C:\util\scripts\wordrunning.vbs 
+
+rem checa se o Excel esta aberto
+tasklist /FI "IMAGENAME eq excel.exe" 2>NUL | find /I /N "excel.exe">NUL
+if "%ERRORLEVEL%"=="0" call C:\util\scripts\Excelrunning.vbs
+
+rem grava no log o inicio do backup
+echo ------ bob ------>>%log_file%
+echo Start_BKP>>%log_file%
+date/t >>%log_file%
+time/t >>%log_file%
+
+rem verifica se o pendrive foi inserido
+rem if exist e: (goto :start_bkp) else goto check_g
+rem :check_g
+rem if exist g: (goto :start_bkp) else goto grava_fim
+
+rem mata sticky notes
+taskkill /f /im StikyNot.exe /t>NUL
+timeout 2>NUL
+
+rem executa empacotamento do arquivo(s)
+:start_bkp
+rem 7z switchs
+rem -p<password> -mx5<compression level> -mhe<encrypt filenames> -ms=off<turn off solid mode> -r<recursive folders>
+%path_7z% u -p%passwd% -mx5 -mhe -ms=off -r %archive_bkp%_bkpdocuments".7z" %bkpdocuments%>>%log_file%
+%path_7z% u -p%passwd% -mx5 -mhe -ms=off -r %archive_bkp%_bkpdesktop".7z" %bkpdesktop%>>%log_file%
+%path_7z% u -p%passwd% -mx5 -mhe -ms=off -r %archive_bkp%_bkpfavorites".7z" %bkpfavorites%>>%log_file%
+%path_7z% u -p%passwd% -mx5 -mhe -ms=off -r %archive_bkp%_bkpscripts".7z" %bkpscripts%>>%log_file%
+%path_7z% u -p%passwd% -mx5 -mhe -ms=off -r %archive_bkp%_bkpsticknotes".7z" %bkpsticknotes%>>%log_file%
+
+REM copia para a rede no drive H:
+xcopy %archive_folder% %storage% /a/y>>%log_file% 
+
+rem copia arquivos para pen-drive se ele existir
+rem if exist g: (type c:\tmp\start_cp_arq.txt>>"%USERPROFILE%\Desktop\LOG_bkp.TXT") else goto grava_fim
+rem if exist g: (robocopy c:\backup\ "g:\backup" /E /ZB /COPYALL /V /R:0 /NP /W:0 /LOG+:"%USERPROFILE%\Desktop\LOG_bkp.TXT" /E /ZB /COPYALL /V /R:0 /W:0 /NP) else goto grava_fim
+
+	
+:grava_fim	
+rem grava no log o fim do backup
+echo End_BKP>>%log_file%
+date/t >>%log_file%
+time/t >>%log_file%
+echo ------ eob ------>>%log_file%
+rem emite 1 bip no spk do pc
+rem desliga o computador em 30segs
+rem ---
+
+REM copia log para a rede no drive H:
+xcopy %log_file% %storage% /a/y
+
+echo 
+call C:\util\scripts\Backup_FINISHED.vbs
+
+rem shutdown -s -t 30
+
+rem pause
+rem FIM
+
+= finished ===
+WScript.Echo("Backup FINISHED")
+
+= files to archive ===
+C:\Users\user\AppData\Roaming\Microsoft\Sticky Notes\*
+C:\Users\user\Documents\*
+C:\Users\user\Favorites\*
+C:\Users\user\Desktop\*
+C:\util\scripts\*
